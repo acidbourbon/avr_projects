@@ -1,0 +1,346 @@
+# EESchema Netlist Version 1.1 created  Thu 02 May 2013 10:06:54 PM CEST
+(
+ ( /5182C4A8 $noname  P1 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+ ( /5182C4A7 $noname  P2 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+ ( /5182C44D $noname  C3 100uf {Lib=CP1}
+  (    1 /vcc )
+  (    2 /gnd )
+ )
+ ( /5182C3C6 $noname  K3 CONN_3 {Lib=CONN_3}
+  (    1 /vcc )
+  (    2 /touchpad_data )
+  (    3 /gnd )
+ )
+ ( /5182C230 $noname  K2 CONN_3 {Lib=CONN_3}
+  (    1 /tx )
+  (    2 /rx )
+  (    3 /gnd )
+ )
+ ( /5182C0F0 $noname  R2 1k {Lib=R}
+  (    1 /ir_sensor )
+  (    2 /vcc )
+ )
+ ( /5182C0C7 $noname  R3 220 {Lib=R}
+  (    1 N-000031 )
+  (    2 /ir_diode )
+ )
+ ( /5182C0AC $noname  K1 CONN_3 {Lib=CONN_3}
+  (    1 N-000031 )
+  (    2 /gnd )
+  (    3 /ir_sensor )
+ )
+ ( /5182C013 $noname  D1 1n4148 {Lib=DIODE}
+  (    1 /gnd )
+  (    2 N-000032 )
+ )
+ ( /5182BFE6 $noname  RV1 POT {Lib=POT}
+  (    1 /vcc )
+  (    2 /v0 )
+  (    3 /gnd )
+ )
+ ( /5182BD9B $noname  R1 100 {Lib=R}
+  (    1 N-000034 )
+  (    2 /fet_gate )
+ )
+ ( /5182BD53 $noname  P8 CONN_2 {Lib=CONN_2}
+  (    1 /vin )
+  (    2 N-000032 )
+ )
+ ( /5182BD30 $noname  Q1 ne530n {Lib=FET_N}
+  (    D N-000032 )
+  (    G N-000034 )
+  (    S /gnd )
+ )
+ ( /5182B955 $noname  C6 300uF {Lib=CP1}
+  (    1 /vin )
+  (    2 /gnd )
+ )
+ ( /5182B926 $noname  P9 CONN_5X2 {Lib=CONN_5X2}
+  (    1 /vcc )
+  (    2 /v0 )
+  (    3 /rs )
+  (    4 /gnd )
+  (    5 /e )
+  (    6 /db4 )
+  (    7 /db5 )
+  (    8 /db6 )
+  (    9 /db7 )
+  (   10 /gnd )
+ )
+ ( /5182B518 $noname  P7 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+ ( /5182B511 $noname  P3 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+ ( /5182A7DB $noname  C5 100n {Lib=C}
+  (    1 /vcc )
+  (    2 /gnd )
+ )
+ ( /5182A7BC $noname  U3 78L05_SO8 {Lib=78L05_SO8}
+  (    1 /vcc )
+  (    2 /gnd )
+  (    3 /gnd )
+  (    4 ? )
+  (    5 ? )
+  (    6 /gnd )
+  (    7 /gnd )
+  (    8 /vin )
+ )
+ ( /50C3822B $noname  C4 100n {Lib=C}
+  (    1 /vcc )
+  (    2 /gnd )
+ )
+ ( /50C37E17 $noname  P4 CONN_3X2 {Lib=CONN_3X2}
+  (    1 /vcc )
+  (    2 /gnd )
+  (    3 /vcc )
+  (    4 /gnd )
+  (    5 /vcc )
+  (    6 /gnd )
+ )
+ ( /50C37D07 $noname  F1 CERAMIC_FILTER {Lib=CERAMIC_FILTER}
+  (    1 N-000014 )
+  (    2 /gnd )
+  (    3 N-000015 )
+ )
+ ( /50C37C76 $noname  C1 100n {Lib=C}
+  (    1 /gnd )
+  (    2 N-000023 )
+ )
+ ( /50C37C06 $noname  C2 100n {Lib=C}
+  (    1 /vin )
+  (    2 /gnd )
+ )
+ ( /50C37BDC $noname  P6 CONN_2 {Lib=CONN_2}
+  (    1 /vin )
+  (    2 /gnd )
+ )
+ ( /50C3727F $noname  P5 CONN_3X2 {Lib=CONN_3X2}
+  (    1 /miso )
+  (    2 /vcc )
+  (    3 /sck )
+  (    4 /mosi )
+  (    5 /rst )
+  (    6 /gnd )
+ )
+ ( /50C3705D TQFP32  IC1 ATMEGA8-AI {Lib=ATMEGA8-AI}
+  (    1 /db5 )
+  (    2 /db6 )
+  (    3 /gnd )
+  (    4 /vcc )
+  (    5 /gnd )
+  (    6 /vcc )
+  (    7 N-000014 )
+  (    8 N-000015 )
+  (    9 /db7 )
+  (   10 /rs )
+  (   11 /e )
+  (   12 ? )
+  (   13 /fet_gate )
+  (   14 ? )
+  (   15 /mosi )
+  (   16 /miso )
+  (   17 /sck )
+  (   18 /vcc )
+  (   19 /ir_sensor )
+  (   20 N-000023 )
+  (   21 /gnd )
+  (   22 ? )
+  (   23 ? )
+  (   24 ? )
+  (   25 ? )
+  (   26 ? )
+  (   27 /touchpad_data )
+  (   28 /ir_diode )
+  (   29 /rst )
+  (   30 /rx )
+  (   31 /tx )
+  (   32 /db4 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C3
+ CP*
+ SM*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C6
+ CP*
+ SM*
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component IC1
+ TQFP32
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 3 "/vin" "vin"
+ P6 1
+ U3 8
+ C2 1
+ C6 1
+ P8 1
+Net 4 "/gnd" "gnd"
+ RV1 3
+ P6 2
+ K1 2
+ IC1 3
+ D1 1
+ IC1 5
+ C5 2
+ Q1 S
+ P5 6
+ C2 2
+ IC1 21
+ C1 1
+ F1 2
+ C6 2
+ P4 6
+ C3 2
+ P4 4
+ K3 3
+ P4 2
+ U3 2
+ C4 2
+ K2 3
+ U3 7
+ U3 6
+ U3 3
+ P9 10
+ P9 4
+Net 5 "/db5" "db5"
+ IC1 1
+ P9 7
+Net 6 "/v0" "v0"
+ RV1 2
+ P9 2
+Net 7 "/rs" "rs"
+ P9 3
+ IC1 10
+Net 8 "/e" "e"
+ P9 5
+ IC1 11
+Net 9 "/db4" "db4"
+ P9 6
+ IC1 32
+Net 10 "/db6" "db6"
+ P9 8
+ IC1 2
+Net 11 "/db7" "db7"
+ P9 9
+ IC1 9
+Net 14 "" ""
+ IC1 7
+ F1 1
+Net 15 "" ""
+ IC1 8
+ F1 3
+Net 23 "" ""
+ C1 2
+ IC1 20
+Net 24 "/miso" "miso"
+ IC1 16
+ P5 1
+Net 25 "/vcc" "vcc"
+ K3 1
+ P4 5
+ U3 1
+ IC1 6
+ R2 2
+ P5 2
+ IC1 4
+ C3 1
+ IC1 18
+ P9 1
+ P4 3
+ C4 1
+ C5 1
+ RV1 1
+ P4 1
+Net 26 "/sck" "sck"
+ P5 3
+ IC1 17
+Net 27 "/mosi" "mosi"
+ IC1 15
+ P5 4
+Net 28 "/rst" "rst"
+ P5 5
+ IC1 29
+Net 29 "/fet_gate" "fet_gate"
+ R1 2
+ IC1 13
+Net 30 "/ir_diode" "ir_diode"
+ IC1 28
+ R3 2
+Net 31 "" ""
+ R3 1
+ K1 1
+Net 32 "" ""
+ P8 2
+ D1 2
+ Q1 D
+Net 33 "/ir_sensor" "ir_sensor"
+ R2 1
+ IC1 19
+ K1 3
+Net 34 "" ""
+ Q1 G
+ R1 1
+Net 37 "/touchpad_data" "touchpad_data"
+ IC1 27
+ K3 2
+Net 38 "/tx" "tx"
+ IC1 31
+ K2 1
+Net 39 "/rx" "rx"
+ K2 2
+ IC1 30
+}
+#End

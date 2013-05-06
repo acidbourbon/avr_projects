@@ -1,0 +1,192 @@
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Thu 02 May 2013 10:00:36 PM CEST
+
+BeginCmp
+TimeStamp = /50C37C76;
+Reference = C1;
+ValeurCmp = 100n;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /50C37C06;
+Reference = C2;
+ValeurCmp = 100n;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5182C44D;
+Reference = C3;
+ValeurCmp = 100uf;
+IdModule  = C1V7;
+EndCmp
+
+BeginCmp
+TimeStamp = /50C3822B;
+Reference = C4;
+ValeurCmp = 100n;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5182A7DB;
+Reference = C5;
+ValeurCmp = 100n;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5182B955;
+Reference = C6;
+ValeurCmp = 300uF;
+IdModule  = C1V8;
+EndCmp
+
+BeginCmp
+TimeStamp = /5182C013;
+Reference = D1;
+ValeurCmp = 1n4148;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /50C37D07;
+Reference = F1;
+ValeurCmp = CERAMIC_FILTER;
+IdModule  = smd_reso;
+EndCmp
+
+BeginCmp
+TimeStamp = /50C3705D;
+Reference = IC1;
+ValeurCmp = ATMEGA8-AI;
+IdModule  = TQFP32;
+EndCmp
+
+BeginCmp
+TimeStamp = /5182C0AC;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5182C230;
+Reference = K2;
+ValeurCmp = CONN_3;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5182C3C6;
+Reference = K3;
+ValeurCmp = CONN_3;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5182C4A8;
+Reference = P1;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /5182C4A7;
+Reference = P2;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /5182B511;
+Reference = P3;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /50C37E17;
+Reference = P4;
+ValeurCmp = CONN_3X2;
+IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /50C3727F;
+Reference = P5;
+ValeurCmp = CONN_3X2;
+IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /50C37BDC;
+Reference = P6;
+ValeurCmp = CONN_2;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5182B518;
+Reference = P7;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /5182BD53;
+Reference = P8;
+ValeurCmp = CONN_2;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5182B926;
+Reference = P9;
+ValeurCmp = CONN_5X2;
+IdModule  = PIN_ARRAY_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5182BD30;
+Reference = Q1;
+ValeurCmp = ne530n;
+IdModule  = TO220V-GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5182BD9B;
+Reference = R1;
+ValeurCmp = 100;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5182C0F0;
+Reference = R2;
+ValeurCmp = 1k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5182C0C7;
+Reference = R3;
+ValeurCmp = 220;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5182BFE6;
+Reference = RV1;
+ValeurCmp = POT;
+IdModule  = RV2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5182A7BC;
+Reference = U3;
+ValeurCmp = 78L05_SO8;
+IdModule  = SO8E;
+EndCmp
+
+EndListe
